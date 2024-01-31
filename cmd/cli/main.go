@@ -22,8 +22,8 @@ import (
 
 	"github.com/CovenantSQL/CookieScanner/cmd"
 	"github.com/CovenantSQL/CookieScanner/parser"
+	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 var (

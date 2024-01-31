@@ -31,13 +31,13 @@ import (
 	"github.com/CovenantSQL/CookieScanner/cmd"
 	"github.com/CovenantSQL/CookieScanner/parser"
 	"github.com/CovenantSQL/CookieScanner/utils"
+	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/raff/godet"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/semaphore"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 	gomail "gopkg.in/gomail.v2"
 )
 

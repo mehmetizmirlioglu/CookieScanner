@@ -20,9 +20,9 @@ import (
 	"github.com/CovenantSQL/CookieScanner/cmd"
 	"github.com/CovenantSQL/CookieScanner/parser"
 	"github.com/CovenantSQL/CookieScanner/utils"
+	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/gobs/pretty"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 func RegisterCommand(app *kingpin.Application, opts *cmd.CommonOptions) {
