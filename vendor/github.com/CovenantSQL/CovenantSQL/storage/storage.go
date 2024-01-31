@@ -24,11 +24,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/twopc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/twopc"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 
 	// Register CovenantSQL/go-sqlite3-encrypt engine.
-	_ "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
+	_ "github.com/CovenantSQL/go-sqlite3-encrypt"
 )
 
 var (

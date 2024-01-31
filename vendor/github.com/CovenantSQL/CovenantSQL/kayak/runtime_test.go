@@ -35,16 +35,16 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/xtaci/smux"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/etls"
-	"github.com/mehmetizmirlioglu/CovenantSQL/kayak"
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	kl "github.com/mehmetizmirlioglu/CovenantSQL/kayak/wal"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	crpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/storage"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/etls"
+	"github.com/CovenantSQL/CovenantSQL/kayak"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	kl "github.com/CovenantSQL/CovenantSQL/kayak/wal"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	crpc "github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/storage"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func init() {

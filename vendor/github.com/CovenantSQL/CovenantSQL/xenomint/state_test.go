@@ -29,11 +29,11 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/verifier"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	xi "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/interfaces"
-	xs "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/sqlite"
+	"github.com/CovenantSQL/CovenantSQL/crypto/verifier"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	xi "github.com/CovenantSQL/CovenantSQL/xenomint/interfaces"
+	xs "github.com/CovenantSQL/CovenantSQL/xenomint/sqlite"
 )
 
 var (

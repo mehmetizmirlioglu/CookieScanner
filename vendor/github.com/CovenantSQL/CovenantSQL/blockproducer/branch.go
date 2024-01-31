@@ -24,12 +24,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
 )
 
 type branch struct {

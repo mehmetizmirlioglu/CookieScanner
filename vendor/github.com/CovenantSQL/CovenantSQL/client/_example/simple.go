@@ -21,8 +21,8 @@ import (
 	"flag"
 	"fmt"
 
-	_ "github.com/mehmetizmirlioglu/CovenantSQL/client"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	_ "github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func main() {

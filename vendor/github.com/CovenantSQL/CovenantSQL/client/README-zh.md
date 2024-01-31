@@ -5,8 +5,8 @@
 确保 `$GOPATH/bin` 目录在环境变量 `$PATH` 中，执行以下命令
 
 ```bash
-$ go get github.com/mehmetizmirlioglu/CovenantSQL/client
-$ go get github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
+$ go get github.com/CovenantSQL/CovenantSQL/client
+$ go get github.com/CovenantSQL/CovenantSQL/cmd/cql
 ```
 
 然后在你的 go 代码中 import 第一个 `client` 包。
@@ -100,4 +100,4 @@ dsn, err = client.Create(meta)
 
 ### 完整示例
 
-在以下目录中有一个简单示例和复杂示例可以参考 [示例](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/client/_example)
+在以下目录中有一个简单示例和复杂示例可以参考 [示例](https://github.com/CovenantSQL/CovenantSQL/tree/develop/client/_example)

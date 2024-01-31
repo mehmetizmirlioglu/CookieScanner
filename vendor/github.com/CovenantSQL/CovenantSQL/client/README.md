@@ -5,8 +5,8 @@ This doc introduce the usage of CovenantSQL client. Client is used for creating,
 Make sure that `$GOPATH/bin` is in your `$PATH`
 
 ```bash
-$ go get github.com/mehmetizmirlioglu/CovenantSQL/client
-$ go get github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
+$ go get github.com/CovenantSQL/CovenantSQL/client
+$ go get github.com/CovenantSQL/CovenantSQL/cmd/cql
 ```
 
 and import `client` package if you want to use it in your code.

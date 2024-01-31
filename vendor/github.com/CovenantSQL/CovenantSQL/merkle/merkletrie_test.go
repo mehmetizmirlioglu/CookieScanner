@@ -8,7 +8,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
 )
 
 func TestMergeTwoHash(t *testing.T) {

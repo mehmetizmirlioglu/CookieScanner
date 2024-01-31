@@ -17,8 +17,8 @@
 package types
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
 )
 
 //go:generate hsp

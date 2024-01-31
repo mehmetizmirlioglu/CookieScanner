@@ -3,8 +3,8 @@ package covenant
 import (
 	"time"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 //go:generate hsp

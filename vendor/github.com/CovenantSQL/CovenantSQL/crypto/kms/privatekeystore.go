@@ -24,11 +24,11 @@ import (
 
 	"github.com/btcsuite/btcutil/base58"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/symmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/symmetric"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var (

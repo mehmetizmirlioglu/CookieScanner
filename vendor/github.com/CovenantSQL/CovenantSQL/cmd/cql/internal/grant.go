@@ -19,9 +19,9 @@ package internal
 import (
 	"encoding/json"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
 )
 
 // CmdGrant is cql grant command entity.

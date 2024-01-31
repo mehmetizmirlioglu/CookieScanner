@@ -14,8 +14,8 @@ import (
 	"github.com/sourcegraph/jsonrpc2"
 	wsstream "github.com/sourcegraph/jsonrpc2/websocket"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/api"
-	"github.com/mehmetizmirlioglu/CovenantSQL/api/models"
+	"github.com/CovenantSQL/CovenantSQL/api"
+	"github.com/CovenantSQL/CovenantSQL/api/models"
 )
 
 const (

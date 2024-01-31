@@ -7,7 +7,7 @@ import (
 
 	"github.com/sourcegraph/jsonrpc2"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/api/models"
+	"github.com/CovenantSQL/CovenantSQL/api/models"
 )
 
 func init() {

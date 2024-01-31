@@ -22,8 +22,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // Test 1: Encryption and decryption.

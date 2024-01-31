@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"github.com/mehmetizmirlioglu/HashStablePack/gen"
+	"github.com/CovenantSQL/HashStablePack/gen"
 )
 
 const linePrefix = "//hsp:"

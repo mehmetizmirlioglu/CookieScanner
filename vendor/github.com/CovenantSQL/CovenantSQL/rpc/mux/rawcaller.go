@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
 )
 
 // RawCaller defines a raw rpc caller without any encryption.

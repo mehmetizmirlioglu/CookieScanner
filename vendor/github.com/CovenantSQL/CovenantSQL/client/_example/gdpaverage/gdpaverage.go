@@ -20,9 +20,9 @@ import (
 	"database/sql"
 	"flag"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func main() {

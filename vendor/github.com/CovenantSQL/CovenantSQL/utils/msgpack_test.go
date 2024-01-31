@@ -21,7 +21,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 type msgpackNestedStruct struct {

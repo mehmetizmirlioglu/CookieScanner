@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
 )
 
 var (

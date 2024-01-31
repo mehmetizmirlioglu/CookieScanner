@@ -21,8 +21,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/rpc/mux"
 )
 
 func createServer(listenAddr string) (s *mux.Server, err error) {

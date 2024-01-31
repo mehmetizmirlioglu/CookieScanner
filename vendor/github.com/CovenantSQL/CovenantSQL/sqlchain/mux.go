@@ -19,8 +19,8 @@ package sqlchain
 import (
 	"sync"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
 )
 
 // MuxService defines multiplexing service of sql-chain.

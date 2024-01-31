@@ -25,15 +25,15 @@
 #   unused-packages = true
 
 [[override]]
-  name = "github.com/mehmetizmirlioglu/logrus"
+  name = "github.com/CovenantSQL/logrus"
   branch = "master"
 
 [[override]]
-  name = "github.com/mehmetizmirlioglu/HashStablePack"
+  name = "github.com/CovenantSQL/HashStablePack"
   branch = "master"
 
 [[override]]
-  name = "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
+  name = "github.com/CovenantSQL/go-sqlite3-encrypt"
   branch = "develop"
 
 [[override]]
@@ -50,7 +50,7 @@
 
 [[override]]
   name = "github.com/xo/usql"
-  source = "github.com/mehmetizmirlioglu/usql"
+  source = "github.com/CovenantSQL/usql"
   branch = "master"
 
 [[override]]
@@ -58,7 +58,7 @@
   branch = "master"
 
 [[override]]
-  name = "github.com/mehmetizmirlioglu/xurls"
+  name = "github.com/CovenantSQL/xurls"
   branch = "master"
 
 [[override]]
@@ -71,7 +71,7 @@
 
 [[override]]
   name = "github.com/siddontang/go-mysql"
-  source = "github.com/mehmetizmirlioglu/go-mysql"
+  source = "github.com/CovenantSQL/go-mysql"
   branch = "master"
 
 [prune]
@@ -92,4 +92,4 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/mehmetizmirlioglu/beacon"
+  name = "github.com/CovenantSQL/beacon"

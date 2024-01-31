@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	pc "github.com/mehmetizmirlioglu/CovenantSQL/pow/cpuminer"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	pc "github.com/CovenantSQL/CovenantSQL/pow/cpuminer"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 const (

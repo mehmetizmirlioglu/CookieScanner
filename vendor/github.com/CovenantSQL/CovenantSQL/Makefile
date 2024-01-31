@@ -110,12 +110,12 @@ endif
 
 tags := $(platform) sqlite_omit_load_extension
 testtags := $(tags) testbinary
-test_flags := -coverpkg github.com/mehmetizmirlioglu/CovenantSQL/... -cover -race -c
+test_flags := -coverpkg github.com/CovenantSQL/CovenantSQL/... -cover -race -c
 
-ldflags_role_bp := -X main.version=$(version) -X github.com/mehmetizmirlioglu/CovenantSQL/conf.RoleTag=B $$GOLDFLAGS
-ldflags_role_miner := -X main.version=$(version) -X github.com/mehmetizmirlioglu/CovenantSQL/conf.RoleTag=M $$GOLDFLAGS
-ldflags_role_client := -X main.version=$(version) -X github.com/mehmetizmirlioglu/CovenantSQL/conf.RoleTag=C $$GOLDFLAGS
-ldflags_role_client_simple_log := $(ldflags_role_client) -X github.com/mehmetizmirlioglu/CovenantSQL/utils/log.SimpleLog=Y
+ldflags_role_bp := -X main.version=$(version) -X github.com/CovenantSQL/CovenantSQL/conf.RoleTag=B $$GOLDFLAGS
+ldflags_role_miner := -X main.version=$(version) -X github.com/CovenantSQL/CovenantSQL/conf.RoleTag=M $$GOLDFLAGS
+ldflags_role_client := -X main.version=$(version) -X github.com/CovenantSQL/CovenantSQL/conf.RoleTag=C $$GOLDFLAGS
+ldflags_role_client_simple_log := $(ldflags_role_client) -X github.com/CovenantSQL/CovenantSQL/utils/log.SimpleLog=Y
 
 GOTEST := CGO_ENABLED=1 go test $(test_flags) -tags "$(testtags)"
 GOBUILD := CGO_ENABLED=1 go build -tags "$(tags)"
@@ -124,56 +124,56 @@ bin/cqld.test:
 	$(GOTEST) \
 		-ldflags "$(ldflags_role_bp)" \
 		-o bin/cqld.test \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cqld
+		github.com/CovenantSQL/CovenantSQL/cmd/cqld
 
 bin/cqld:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_bp)" \
 		-o bin/cqld \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cqld
+		github.com/CovenantSQL/CovenantSQL/cmd/cqld
 
 bin/cql-minerd.test:
 	$(GOTEST) \
 		-ldflags "$(ldflags_role_miner)" \
 		-o bin/cql-minerd.test \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd
+		github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd
 
 bin/cql-minerd:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_miner)" \
 		-o bin/cql-minerd \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd
+		github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd
 
 bin/cql:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_client_simple_log)" \
 		-o bin/cql \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
+		github.com/CovenantSQL/CovenantSQL/cmd/cql
 
 bin/cql.test:
 	$(GOTEST) \
 		-ldflags "$(ldflags_role_client)" \
 		-o bin/cql.test \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
+		github.com/CovenantSQL/CovenantSQL/cmd/cql
 
 
 bin/cql-fuse:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_client_simple_log)" \
 		-o bin/cql-fuse \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-fuse
+		github.com/CovenantSQL/CovenantSQL/cmd/cql-fuse
 
 bin/cql-mysql-adapter:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_client)" \
 		-o bin/cql-mysql-adapter \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-mysql-adapter
+		github.com/CovenantSQL/CovenantSQL/cmd/cql-mysql-adapter
 
 bin/cql-faucet:
 	$(GOBUILD) \
 		-ldflags "$(ldflags_role_client)" \
 		-o bin/cql-faucet \
-		github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-faucet
+		github.com/CovenantSQL/CovenantSQL/cmd/cql-faucet
 
 bp: bin/cqld.test bin/cqld
 

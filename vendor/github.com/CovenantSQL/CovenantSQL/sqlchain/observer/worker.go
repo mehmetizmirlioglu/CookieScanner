@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
-	"github.com/mehmetizmirlioglu/CovenantSQL/worker"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/worker"
 )
 
 type subscribeWorker struct {

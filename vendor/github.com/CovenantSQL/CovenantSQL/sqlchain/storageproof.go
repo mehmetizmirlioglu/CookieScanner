@@ -19,8 +19,8 @@ package sqlchain
 import (
 	"errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 // Answer is responded by node to confirm other nodes that the node stores data correctly.

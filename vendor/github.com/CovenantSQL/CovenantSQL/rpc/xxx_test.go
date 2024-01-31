@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/naconn"
-	"github.com/mehmetizmirlioglu/CovenantSQL/pow/cpuminer"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/naconn"
+	"github.com/CovenantSQL/CovenantSQL/pow/cpuminer"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var (

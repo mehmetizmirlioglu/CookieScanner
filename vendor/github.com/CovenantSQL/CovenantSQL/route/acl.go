@@ -17,9 +17,9 @@
 package route
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 /*
@@ -28,7 +28,7 @@ NOTE:
 	1. NodeID = Hash(NodePublicKey + Nonce)
 	1. Every node holds BP's Public Key and gets other node's Public Key from BP
     1. PubKey is verified by ETLS with ECDH
-	1. For more about ETLS: https://github.com/mehmetizmirlioglu/research/wiki/ETLS(Enhanced-Transport-Layer-Security)
+	1. For more about ETLS: https://github.com/CovenantSQL/research/wiki/ETLS(Enhanced-Transport-Layer-Security)
 
 ACLs:
 	Client -> BP, Request for Allocating DB:

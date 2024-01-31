@@ -34,7 +34,7 @@
   branch = "master"
 
 [[override]]
-  name = "github.com/mehmetizmirlioglu/CovenantSQL"
+  name = "github.com/CovenantSQL/CovenantSQL"
   branch = "develop"
 
 [[override]]

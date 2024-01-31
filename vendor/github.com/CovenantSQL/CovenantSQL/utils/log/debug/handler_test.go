@@ -25,7 +25,7 @@ import (
 	"github.com/jmoiron/jsonq"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func parseResponse(resp *http.Response, r error) (result *jsonq.JsonQuery, err error) {

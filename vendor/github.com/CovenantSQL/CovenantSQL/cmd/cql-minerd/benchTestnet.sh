@@ -14,7 +14,7 @@ main() {
         "-benchtime=10s"
         "-run=^$"
     )
-    local pkg="github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd"
+    local pkg="github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd"
     local cpus=("" 1) counts=(1 2 3)
     local cpu count caseflags
     for cpu in "${cpus[@]}"; do

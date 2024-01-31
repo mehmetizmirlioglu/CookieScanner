@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/rpc"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 // NodeAwareServerCodec wraps normal rpc.ServerCodec and inject node id during request process.

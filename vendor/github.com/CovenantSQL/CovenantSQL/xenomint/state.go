@@ -25,10 +25,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
-	xi "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	xi "github.com/CovenantSQL/CovenantSQL/xenomint/interfaces"
 )
 
 type sqlQuerier interface {

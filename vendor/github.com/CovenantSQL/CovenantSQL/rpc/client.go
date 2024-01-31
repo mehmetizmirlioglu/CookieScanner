@@ -20,7 +20,7 @@ import (
 	"io"
 	"net/rpc"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 // Client defines the RPC client interface.

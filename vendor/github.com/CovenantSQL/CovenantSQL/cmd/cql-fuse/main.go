@@ -75,9 +75,9 @@ import (
 	"bazil.org/fuse/fs"
 	_ "bazil.org/fuse/fs/fstestutil"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var usage = func() {

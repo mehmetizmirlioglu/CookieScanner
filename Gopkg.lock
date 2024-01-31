@@ -4,7 +4,7 @@
 [[projects]]
   branch = "develop"
   digest = "1:3d56f7aea1d5ce88c38cb1b516240ff40f181cfaa52dc5bbb041e0eed1b7c20a"
-  name = "github.com/mehmetizmirlioglu/CovenantSQL"
+  name = "github.com/CovenantSQL/CovenantSQL"
   packages = [
     "blockproducer",
     "blockproducer/interfaces",
@@ -40,7 +40,7 @@
 
 [[projects]]
   digest = "1:eb83163ae01838cb1dc3cb1b798f306597673e935f85b0e23ed09793ba3ce2cf"
-  name = "github.com/mehmetizmirlioglu/HashStablePack"
+  name = "github.com/CovenantSQL/HashStablePack"
   packages = ["marshalhash"]
   pruneopts = ""
   revision = "6ae9d78bb97f20c0dbbdb74485974242bbbbdad5"
@@ -49,14 +49,14 @@
 [[projects]]
   branch = "master"
   digest = "1:36a7ce1536a6180a17cde1139aa5072149d5d438a08b5b063ea10e5165faefb8"
-  name = "github.com/mehmetizmirlioglu/beacon"
+  name = "github.com/CovenantSQL/beacon"
   packages = ["ipv6"]
   pruneopts = ""
   revision = "9f84f37adc0c8ead41f8a1135bdedfd86403fb8b"
 
 [[projects]]
   digest = "1:bc03901fc8f0965ccba8bc453eae21a9b04f95999eab664c7de6dc7290f4e8f4"
-  name = "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
+  name = "github.com/CovenantSQL/go-sqlite3-encrypt"
   packages = ["."]
   pruneopts = ""
   revision = "25ecb14adfc7543176f7d85291ec7dba82c6f7e4"
@@ -312,7 +312,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/mehmetizmirlioglu/CovenantSQL/client",
+    "github.com/CovenantSQL/CovenantSQL/client",
     "github.com/gobs/args",
     "github.com/gobs/pretty",
     "github.com/gorilla/handlers",

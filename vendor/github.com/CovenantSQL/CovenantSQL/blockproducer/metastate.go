@@ -23,13 +23,13 @@ import (
 	"github.com/mohae/deepcopy"
 	"github.com/pkg/errors"
 
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var (

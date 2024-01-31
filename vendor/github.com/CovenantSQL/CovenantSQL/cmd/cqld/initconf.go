@@ -17,12 +17,12 @@
 package main
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func initNodePeers(nodeID proto.NodeID, publicKeystorePath string) (nodes *[]proto.Node, peers *proto.Peers, thisNode *proto.Node, err error) {

@@ -21,8 +21,8 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // SimpleMetricMap is map from metric name to MetricFamily.

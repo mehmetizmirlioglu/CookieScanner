@@ -22,8 +22,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 const testStorePath1 = "./test1.keystore"

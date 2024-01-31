@@ -19,7 +19,7 @@ package types
 import (
 	"time"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 // RuntimeConfig defines the runtime config of kayak.

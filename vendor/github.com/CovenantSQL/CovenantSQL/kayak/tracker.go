@@ -21,9 +21,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/trace"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/utils/trace"
 )
 
 // rpcTracker defines the rpc call tracker

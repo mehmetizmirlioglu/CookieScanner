@@ -21,10 +21,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/kayak"
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/CovenantSQL/CovenantSQL/kayak"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
 )
 
 const (

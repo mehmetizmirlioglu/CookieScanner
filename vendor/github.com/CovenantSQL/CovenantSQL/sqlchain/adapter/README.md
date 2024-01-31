@@ -5,7 +5,7 @@ This doc introduce the usage of CovenantSQL adapter. This adapter lets you use C
 Make sure the ```$GOPATH/bin``` is in your ```$PATH```, download build the adapter binary.
 
 ```shell
-$ go get github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-adapter
+$ go get github.com/CovenantSQL/CovenantSQL/cmd/cql-adapter
 ```
 
 ## Adapter Usage
@@ -14,7 +14,7 @@ Adapter can use the same ```config.yaml``` and key pair with `cql`
 
 ### Generating Default Config File
 
-First, generate the main configuration file. Same as [Generating Default Config File in Golang Client Doc](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/client#generating-default-config-file). An existing configuration file can also be used.
+First, generate the main configuration file. Same as [Generating Default Config File in Golang Client Doc](https://github.com/CovenantSQL/CovenantSQL/tree/develop/client#generating-default-config-file). An existing configuration file can also be used.
 
 ### Start
 

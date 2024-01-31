@@ -8,7 +8,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 func TestInitMetricWeb(t *testing.T) {

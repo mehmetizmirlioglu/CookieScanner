@@ -21,8 +21,8 @@ import (
 	"strings"
 	"sync"
 
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 //go:generate hsp

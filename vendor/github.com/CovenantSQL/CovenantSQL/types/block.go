@@ -21,11 +21,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/verifier"
-	"github.com/mehmetizmirlioglu/CovenantSQL/merkle"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/verifier"
+	"github.com/CovenantSQL/CovenantSQL/merkle"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 //go:generate hsp

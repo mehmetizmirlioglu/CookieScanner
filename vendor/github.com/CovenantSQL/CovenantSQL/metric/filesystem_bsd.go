@@ -20,7 +20,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 /*

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/bits"
 
-	hsp "github.com/mehmetizmirlioglu/HashStablePack/marshalhash"
+	hsp "github.com/CovenantSQL/HashStablePack/marshalhash"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // HashSize of array used to store hashes.  See Hash.

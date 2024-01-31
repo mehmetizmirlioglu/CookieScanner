@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/test"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/test"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var (

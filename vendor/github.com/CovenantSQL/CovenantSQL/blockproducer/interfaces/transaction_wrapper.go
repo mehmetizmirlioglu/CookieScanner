@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/ugorji/go/codec"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 const (

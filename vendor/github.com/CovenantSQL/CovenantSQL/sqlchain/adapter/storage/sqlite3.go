@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 
 	// Import sqlite3 manually.
-	_ "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
+	_ "github.com/CovenantSQL/go-sqlite3-encrypt"
 )
 
 // SQLite3Storage defines the sqlite3 database abstraction.

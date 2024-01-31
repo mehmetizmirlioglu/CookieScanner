@@ -17,8 +17,8 @@
 package kayak
 
 import (
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func (r *Runtime) markMissingLog(index uint64) {

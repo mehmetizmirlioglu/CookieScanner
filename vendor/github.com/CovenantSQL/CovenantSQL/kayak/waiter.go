@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/trace"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/trace"
 )
 
 type waitItem struct {

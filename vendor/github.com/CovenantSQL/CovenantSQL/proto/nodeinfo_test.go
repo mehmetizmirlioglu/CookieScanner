@@ -24,7 +24,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
 )
 
 func TestAccountAddress_DatabaseID(t *testing.T) {

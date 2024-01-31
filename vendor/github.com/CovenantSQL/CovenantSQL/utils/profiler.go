@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var prof struct {

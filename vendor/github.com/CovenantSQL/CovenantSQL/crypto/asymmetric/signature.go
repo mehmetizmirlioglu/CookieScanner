@@ -21,12 +21,12 @@ import (
 	"errors"
 	"math/big"
 
-	hsp "github.com/mehmetizmirlioglu/HashStablePack/marshalhash"
+	hsp "github.com/CovenantSQL/HashStablePack/marshalhash"
 	ec "github.com/btcsuite/btcd/btcec"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/secp256k1"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/crypto/secp256k1"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 var (

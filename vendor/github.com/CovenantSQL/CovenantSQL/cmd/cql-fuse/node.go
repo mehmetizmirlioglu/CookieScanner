@@ -47,7 +47,7 @@ import (
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/client"
 )
 
 var _ fs.Node = &Node{}               // Attr

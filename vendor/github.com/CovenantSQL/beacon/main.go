@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/mehmetizmirlioglu/beacon/ipv6"
+	"github.com/CovenantSQL/beacon/ipv6"
 	log "github.com/Sirupsen/logrus"
 	"io/ioutil"
 	"os"

@@ -19,11 +19,11 @@ package main
 import (
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
-	"github.com/mehmetizmirlioglu/CovenantSQL/worker"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/rpc/mux"
+	"github.com/CovenantSQL/CovenantSQL/worker"
 )
 
 var rootHash = hash.Hash{}

@@ -1,4 +1,4 @@
-// This package is the support library for the hsp code generator (http://github.com/mehmetizmirlioglu/HashStablePack).
+// This package is the support library for the hsp code generator (http://github.com/CovenantSQL/HashStablePack).
 //
 // This package defines the utilites used by the hsp code generator for encoding and decoding MessagePack
 // from []byte and io.Reader/io.Writer types. Much of this package is devoted to helping the hsp code
@@ -20,7 +20,7 @@
 // an explicit de-serialization step.
 //
 // For additional tips, tricks, and gotchas, please visit
-// the wiki at http://github.com/mehmetizmirlioglu/HashStablePack
+// the wiki at http://github.com/CovenantSQL/HashStablePack
 package marshalhash
 
 const last4 = 0x0f

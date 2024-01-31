@@ -17,7 +17,7 @@
 package rpc
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 // NewServer return a new Server.

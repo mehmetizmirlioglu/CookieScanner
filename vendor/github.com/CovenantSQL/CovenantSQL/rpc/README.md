@@ -1,8 +1,8 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/mehmetizmirlioglu/CovenantSQL?style=flat-square)](https://goreportcard.com/report/github.com/mehmetizmirlioglu/CovenantSQL)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CovenantSQL/CovenantSQL?style=flat-square)](https://goreportcard.com/report/github.com/CovenantSQL/CovenantSQL)
 [![Coverage](https://codecov.io/gh/CovenantSQL/CovenantSQL/branch/develop/graph/badge.svg)](https://codecov.io/gh/CovenantSQL/CovenantSQL/tree/develop/rpc)
 [![Build Status](https://travis-ci.org/CovenantSQL/CovenantSQL.png?branch=develop)](https://travis-ci.org/CovenantSQL/CovenantSQL)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/CovenantSQL/CovenantSQL)
 
 
 # DH-RPC
@@ -12,7 +12,7 @@ DH-RPC is a secp256k1-ECDH-AES encrypted P2P RPC framework for decentralized app
 
 CovenantSQL is built on DH-RPC, including:
 
-- Byzantine Fault Tolerance consensus protocol [Kayak](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL/kayak)
+- Byzantine Fault Tolerance consensus protocol [Kayak](https://godoc.org/github.com/CovenantSQL/CovenantSQL/kayak)
 - Consistent Secure DHT
 - DB API
 - Metric Collect
@@ -86,7 +86,7 @@ Tracker stuff can refer to the Example section below
     - Annoymous connection is also supported
 - DHT persistence layer has 2 implementations:
     - SQLite3 based simple traditional DHT
-    - [Kayak](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL/kayak) based 2PC strong consistent DHT
+    - [Kayak](https://godoc.org/github.com/CovenantSQL/CovenantSQL/kayak) based 2PC strong consistent DHT
 - Connection pool based on [Yamux](https://github.com/hashicorp/yamux), make thousands of connections multiplexed over **One TCP connection**.
 
 ## Stack
@@ -96,10 +96,10 @@ Tracker stuff can refer to the Example section below
 
   - [DH-RPC](rpc/) = TLS - Cert + DHT
     - RPC Layer: compatible with golang `net/rpc`
-    - Naming Layer: [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL/consistent)
+    - Naming Layer: [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/CovenantSQL/CovenantSQL/consistent)
     - Pooling Layer: session pool built on Yamux
     - Multiplex Layer: Yamux by Hashicorp
-    - Transport Security Layer: [**E**nhanced **TLS**](https://github.com/mehmetizmirlioglu/research/wiki/ETLS(Enhanced-Transport-Layer-Security))
+    - Transport Security Layer: [**E**nhanced **TLS**](https://github.com/CovenantSQL/research/wiki/ETLS(Enhanced-Transport-Layer-Security))
     - Network Layer: TCP or KCP for optional later
 
 
@@ -142,11 +142,11 @@ package main
 import (
 	"os"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/consistent"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/consistent"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func main() {
@@ -187,11 +187,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // TestService to be register to RPC server

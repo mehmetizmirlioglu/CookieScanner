@@ -25,14 +25,14 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	con "github.com/mehmetizmirlioglu/CovenantSQL/consistent"
-	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/route"
-	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	con "github.com/CovenantSQL/CovenantSQL/consistent"
+	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/route"
+	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
+	"github.com/CovenantSQL/CovenantSQL/types"
 )
 
 type nodeRPCInfo struct {

@@ -17,10 +17,10 @@
 package types
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 // AdviseNewBlockReq defines a request of the AdviseNewBlock RPC method.

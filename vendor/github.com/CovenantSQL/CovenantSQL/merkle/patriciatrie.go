@@ -21,7 +21,7 @@ import (
 
 	"github.com/tchap/go-patricia/patricia"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
 )
 
 // Trie is a patricia trie.

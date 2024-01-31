@@ -14,7 +14,7 @@ main() {
         "-benchtime=10s"
         "-run=^$"
     )
-    local pkg="github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd"
+    local pkg="github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd"
     local i subflags
     for ((i=1; i<=3; i++)); do
         subflags=(

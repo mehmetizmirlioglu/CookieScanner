@@ -21,7 +21,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // Config defines the configurable options for faucet applyToken backend.

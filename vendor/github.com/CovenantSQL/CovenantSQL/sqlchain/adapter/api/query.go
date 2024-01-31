@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter/config"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter/config"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 func init() {

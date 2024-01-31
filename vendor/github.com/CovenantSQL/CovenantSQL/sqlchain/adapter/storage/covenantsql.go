@@ -19,7 +19,7 @@ package storage
 import (
 	"database/sql"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/client"
 )
 
 // CovenantSQLStorage defines the covenantsql database abstraction.

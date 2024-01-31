@@ -23,14 +23,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
-	xi "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/interfaces"
-	xs "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/sqlite"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	xi "github.com/CovenantSQL/CovenantSQL/xenomint/interfaces"
+	xs "github.com/CovenantSQL/CovenantSQL/xenomint/sqlite"
 )
 
 var (

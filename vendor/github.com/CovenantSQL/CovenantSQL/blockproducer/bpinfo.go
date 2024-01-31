@@ -19,7 +19,7 @@ package blockproducer
 import (
 	"fmt"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/proto"
 )
 
 type blockProducerInfo struct {

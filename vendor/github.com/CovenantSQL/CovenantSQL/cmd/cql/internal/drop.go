@@ -17,7 +17,7 @@
 package internal
 
 import (
-	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/CovenantSQL/CovenantSQL/client"
 )
 
 // CmdDrop is cql drop command entity.

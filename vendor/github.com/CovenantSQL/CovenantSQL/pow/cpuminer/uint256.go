@@ -21,7 +21,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	hsp "github.com/mehmetizmirlioglu/HashStablePack/marshalhash"
+	hsp "github.com/CovenantSQL/HashStablePack/marshalhash"
 )
 
 const (

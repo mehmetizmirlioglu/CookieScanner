@@ -26,19 +26,19 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/kayak"
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	kl "github.com/mehmetizmirlioglu/CovenantSQL/kayak/wal"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain"
-	"github.com/mehmetizmirlioglu/CovenantSQL/storage"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
-	x "github.com/mehmetizmirlioglu/CovenantSQL/xenomint"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/crypto"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/kayak"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	kl "github.com/CovenantSQL/CovenantSQL/kayak/wal"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/sqlchain"
+	"github.com/CovenantSQL/CovenantSQL/storage"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	x "github.com/CovenantSQL/CovenantSQL/xenomint"
 )
 
 const (

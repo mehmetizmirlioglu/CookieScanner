@@ -21,7 +21,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 // Database defines single database subscription status.

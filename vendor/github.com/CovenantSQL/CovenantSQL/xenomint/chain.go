@@ -20,13 +20,13 @@ import (
 	"database/sql"
 	"time"
 
-	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
-	xi "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/interfaces"
-	xs "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/sqlite"
+	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	xi "github.com/CovenantSQL/CovenantSQL/xenomint/interfaces"
+	xs "github.com/CovenantSQL/CovenantSQL/xenomint/sqlite"
 )
 
 // Chain defines the xenomint chain structure.

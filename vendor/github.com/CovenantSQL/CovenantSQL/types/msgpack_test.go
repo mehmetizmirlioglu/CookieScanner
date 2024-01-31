@@ -22,8 +22,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
+	"github.com/CovenantSQL/CovenantSQL/utils"
 )
 
 type complexStructure struct {

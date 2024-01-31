@@ -29,16 +29,16 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
-	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
-	kw "github.com/mehmetizmirlioglu/CovenantSQL/kayak/wal"
-	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
-	"github.com/mehmetizmirlioglu/CovenantSQL/types"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
-	x "github.com/mehmetizmirlioglu/CovenantSQL/xenomint"
-	xi "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/interfaces"
-	xs "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/sqlite"
+	"github.com/CovenantSQL/CovenantSQL/crypto"
+	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	kw "github.com/CovenantSQL/CovenantSQL/kayak/wal"
+	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/CovenantSQL/CovenantSQL/utils"
+	x "github.com/CovenantSQL/CovenantSQL/xenomint"
+	xi "github.com/CovenantSQL/CovenantSQL/xenomint/interfaces"
+	xs "github.com/CovenantSQL/CovenantSQL/xenomint/sqlite"
 )
 
 func BenchmarkDBWrite(b *testing.B) {

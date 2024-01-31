@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/api/models"
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc/jsonrpc"
+	"github.com/CovenantSQL/CovenantSQL/api/models"
+	"github.com/CovenantSQL/CovenantSQL/rpc/jsonrpc"
 )
 
 var (

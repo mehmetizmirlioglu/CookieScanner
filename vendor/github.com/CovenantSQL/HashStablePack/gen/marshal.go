@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/mehmetizmirlioglu/HashStablePack/marshalhash"
+	"github.com/CovenantSQL/HashStablePack/marshalhash"
 )
 
 func marshal(w io.Writer) *marshalGen {

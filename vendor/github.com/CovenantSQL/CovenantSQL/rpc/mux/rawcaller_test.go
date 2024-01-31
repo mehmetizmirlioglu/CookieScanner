@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
+	"github.com/CovenantSQL/CovenantSQL/rpc"
 )
 
 type testService struct{}

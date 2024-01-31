@@ -27,9 +27,9 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
-	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter/storage"
-	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/CovenantSQL/CovenantSQL/conf"
+	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter/storage"
+	"github.com/CovenantSQL/CovenantSQL/utils/log"
 )
 
 var (
