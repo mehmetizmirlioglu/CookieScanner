@@ -26,14 +26,14 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
-	"github.com/CovenantSQL/CovenantSQL/crypto"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 func newTransfer(

@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
 )
 
 //go:generate hsp

@@ -23,8 +23,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 type pooledClient struct {

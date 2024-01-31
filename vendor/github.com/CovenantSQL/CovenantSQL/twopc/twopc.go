@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // Hook are called during 2PC running.

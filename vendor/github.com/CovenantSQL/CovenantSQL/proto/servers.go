@@ -17,8 +17,8 @@
 package proto
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/verifier"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/verifier"
 )
 
 //go:generate hsp

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 func init() {

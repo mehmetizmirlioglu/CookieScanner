@@ -21,11 +21,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/route"
 )
 
 const (

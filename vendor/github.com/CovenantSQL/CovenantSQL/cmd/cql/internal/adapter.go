@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 var (

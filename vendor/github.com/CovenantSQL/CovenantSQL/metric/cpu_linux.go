@@ -26,7 +26,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/procfs"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 type cpuCollector struct {

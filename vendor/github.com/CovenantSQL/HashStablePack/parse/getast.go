@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/CovenantSQL/HashStablePack/gen"
+	"github.com/mehmetizmirlioglu/HashStablePack/gen"
 	"github.com/ttacon/chalk"
 )
 

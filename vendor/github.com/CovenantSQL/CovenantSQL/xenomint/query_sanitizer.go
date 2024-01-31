@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CovenantSQL/sqlparser"
+	"github.com/mehmetizmirlioglu/sqlparser"
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/types"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 var (

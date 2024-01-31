@@ -11,7 +11,7 @@ import (
 	"github.com/sourcegraph/jsonrpc2"
 	wsstream "github.com/sourcegraph/jsonrpc2/websocket"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // WebsocketServer is a websocket server providing JSON-RPC API service.

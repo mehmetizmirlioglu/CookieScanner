@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
 )
 
 // CmdCreate is cql create command entity.

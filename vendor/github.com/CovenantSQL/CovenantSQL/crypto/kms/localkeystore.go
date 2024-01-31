@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	mine "github.com/CovenantSQL/CovenantSQL/pow/cpuminer"
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	mine "github.com/mehmetizmirlioglu/CovenantSQL/pow/cpuminer"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 // LocalKeyStore is the type hold local private & public key.

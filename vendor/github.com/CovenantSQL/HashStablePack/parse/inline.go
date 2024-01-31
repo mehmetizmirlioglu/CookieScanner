@@ -1,7 +1,7 @@
 package parse
 
 import (
-	"github.com/CovenantSQL/HashStablePack/gen"
+	"github.com/mehmetizmirlioglu/HashStablePack/gen"
 	"sort"
 )
 
@@ -112,7 +112,7 @@ func (f *FileSet) propInline() {
 }
 
 const fatalloop = `detected infinite recursion in inlining loop!
-Please file a bug at github.com/CovenantSQL/HashStablePack/issues!
+Please file a bug at github.com/mehmetizmirlioglu/HashStablePack/issues!
 Thanks!
 `
 

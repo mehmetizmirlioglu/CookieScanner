@@ -26,8 +26,8 @@ import (
 
 	my "github.com/siddontang/go-mysql/mysql"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 var (

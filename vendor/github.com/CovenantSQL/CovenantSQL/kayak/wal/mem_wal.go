@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
+	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
 )
 
 // MemWal defines a toy wal using memory as storage.

@@ -1,11 +1,11 @@
 This doc introduces the usage of CovenantSQL command line client `cql`. `cql` is a command line interface for batch scripting used for creating, querying, updating, and deleting the SQLChain and database adhere to the SQLChain.
 
 ## Install
-Download [Latest Release](https://github.com/CovenantSQL/CovenantSQL/releases) or build from src:
+Download [Latest Release](https://github.com/mehmetizmirlioglu/CovenantSQL/releases) or build from src:
 
 ```bash
-$ go get github.com/CovenantSQL/CovenantSQL/client
-$ go get github.com/CovenantSQL/CovenantSQL/cmd/cql
+$ go get github.com/mehmetizmirlioglu/CovenantSQL/client
+$ go get github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
 ```
 *make sure that `$GOPATH/bin` is in your `$PATH`*
 

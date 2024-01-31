@@ -30,7 +30,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/secp256k1"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/secp256k1"
 )
 
 var (

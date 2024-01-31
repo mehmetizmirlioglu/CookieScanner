@@ -19,8 +19,8 @@ package worker
 import (
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/sqlchain"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain"
 )
 
 // DBConfig defines the database config.

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter/config"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter/config"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 func init() {

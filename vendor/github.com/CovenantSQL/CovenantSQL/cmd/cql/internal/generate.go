@@ -26,11 +26,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CovenantSQL/CovenantSQL/conf/testnet"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf/testnet"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 	yaml "gopkg.in/yaml.v2"
 )
 

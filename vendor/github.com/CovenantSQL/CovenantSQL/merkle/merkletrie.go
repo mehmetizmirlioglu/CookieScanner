@@ -17,7 +17,7 @@
 package merkle
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
 )
 
 // Merkle is a merkle tree implementation (https://en.wikipedia.org/wiki/Merkle_tree).

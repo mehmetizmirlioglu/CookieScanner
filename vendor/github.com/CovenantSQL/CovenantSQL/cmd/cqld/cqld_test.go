@@ -26,14 +26,14 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/route"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/test"
-	"github.com/CovenantSQL/CovenantSQL/types"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/route"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/test"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 func TestCQLD(t *testing.T) {

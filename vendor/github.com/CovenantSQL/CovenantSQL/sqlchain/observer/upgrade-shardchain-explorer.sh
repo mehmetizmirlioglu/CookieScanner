@@ -35,7 +35,7 @@ main() {
     echo "Temporary working directory: ${tmp_source_dir}"
 
     set -o xtrace
-    git clone https://github.com/CovenantSQL/shardchain-explorer "${tmp_source_dir}"
+    git clone https://github.com/mehmetizmirlioglu/shardchain-explorer "${tmp_source_dir}"
     cd "${tmp_source_dir}"
     ${CMD_PM} install
     ${CMD_PM} run build

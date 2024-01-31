@@ -29,9 +29,9 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	ca "github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	ca "github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 func setupChain(testName string) (c *Chain, err error) {

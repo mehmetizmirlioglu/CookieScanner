@@ -24,9 +24,9 @@ import (
 	"github.com/pkg/errors"
 	mux "github.com/xtaci/smux"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/rpc"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
 )
 
 // Session is the Session type of SessionPool.

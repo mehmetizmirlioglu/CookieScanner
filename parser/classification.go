@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
 	"github.com/pkg/errors"
 )
 

@@ -24,12 +24,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/route"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/route"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 // WaitBPChainService waits until BP chain service is ready.

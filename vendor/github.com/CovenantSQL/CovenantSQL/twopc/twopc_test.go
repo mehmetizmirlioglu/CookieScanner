@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/twopc"
+	"github.com/mehmetizmirlioglu/CovenantSQL/twopc"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/etls"
-	"github.com/CovenantSQL/CovenantSQL/rpc"
-	"github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/etls"
+	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
+	"github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 type RaftTxState int

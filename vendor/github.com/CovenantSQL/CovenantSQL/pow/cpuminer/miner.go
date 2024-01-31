@@ -20,8 +20,8 @@ package cpuminer
 import (
 	"errors"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // NonceInfo contains nonce and the difficulty to the block.

@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/CovenantSQL/CovenantSQL/proto"
+import "github.com/mehmetizmirlioglu/CovenantSQL/proto"
 
 // ApplyRequest defines the apply request entity.
 type ApplyRequest struct {

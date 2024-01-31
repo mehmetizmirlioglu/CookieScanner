@@ -18,15 +18,15 @@ package main
 //  -file = input file name (or directory; default is $GOFILE, which is set by the `go generate` command)
 //  -tests = generate tests and benchmarks (default is true)
 //
-// For more information, please read README.md, and the wiki at github.com/CovenantSQL/HashStablePack
+// For more information, please read README.md, and the wiki at github.com/mehmetizmirlioglu/HashStablePack
 //
 
 import (
 	"flag"
 	"fmt"
-	"github.com/CovenantSQL/HashStablePack/gen"
-	"github.com/CovenantSQL/HashStablePack/parse"
-	"github.com/CovenantSQL/HashStablePack/printer"
+	"github.com/mehmetizmirlioglu/HashStablePack/gen"
+	"github.com/mehmetizmirlioglu/HashStablePack/parse"
+	"github.com/mehmetizmirlioglu/HashStablePack/printer"
 	"github.com/ttacon/chalk"
 	"os"
 	"path/filepath"

@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/types"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // MuxService defines multiplexing service of xenomint chain.

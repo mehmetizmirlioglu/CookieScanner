@@ -1,11 +1,11 @@
 本文档主要介绍 CovenantSQL 命令行客户端 `cql` 的使用。`cql` 是一个用于批量进行 SQLChain 上数据库的创建、查询、更新或删除操作的命令行工具。
 
 ## 安装
-下载 [最新发布版本](https://github.com/CovenantSQL/CovenantSQL/releases) 或直接从源码编译：
+下载 [最新发布版本](https://github.com/mehmetizmirlioglu/CovenantSQL/releases) 或直接从源码编译：
 
 ```bash
-$ go get github.com/CovenantSQL/CovenantSQL/client
-$ go get github.com/CovenantSQL/CovenantSQL/cmd/cql
+$ go get github.com/mehmetizmirlioglu/CovenantSQL/client
+$ go get github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql
 ```
 *保证 Golang 环境变量 `$GOPATH/bin` 已在 `$PATH` 中*
 

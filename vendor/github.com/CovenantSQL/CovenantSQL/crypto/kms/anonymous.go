@@ -19,7 +19,7 @@ package kms
 import (
 	"strings"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 // AnonymousXXX is only used for DHT.Ping

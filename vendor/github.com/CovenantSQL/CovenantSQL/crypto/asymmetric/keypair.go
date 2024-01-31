@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	hsp "github.com/CovenantSQL/HashStablePack/marshalhash"
+	hsp "github.com/mehmetizmirlioglu/HashStablePack/marshalhash"
 	ec "github.com/btcsuite/btcd/btcec"
 
-	mine "github.com/CovenantSQL/CovenantSQL/pow/cpuminer"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	mine "github.com/mehmetizmirlioglu/CovenantSQL/pow/cpuminer"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // PrivateKeyBytesLen defines the length in bytes of a serialized private key.

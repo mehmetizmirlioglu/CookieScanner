@@ -17,10 +17,10 @@
 package types
 
 import (
-	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 //go:generate hsp

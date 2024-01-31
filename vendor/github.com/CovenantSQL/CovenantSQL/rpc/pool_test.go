@@ -26,8 +26,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 func benchCaller(b *testing.B, caller *Caller, remote proto.NodeID) {

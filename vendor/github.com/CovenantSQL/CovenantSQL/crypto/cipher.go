@@ -24,7 +24,7 @@ import (
 
 	ec "github.com/btcsuite/btcd/btcec"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
 )
 
 var errInvalidPadding = errors.New("invalid PKCS#7 padding")

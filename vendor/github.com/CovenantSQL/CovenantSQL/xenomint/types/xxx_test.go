@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 func setup() {

@@ -17,8 +17,8 @@
 package rpc
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/naconn"
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/naconn"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 // The following variables define a method set to Dial/Accept node-oriented connections for

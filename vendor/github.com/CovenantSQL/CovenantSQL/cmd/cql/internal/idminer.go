@@ -25,11 +25,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	mine "github.com/CovenantSQL/CovenantSQL/pow/cpuminer"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	mine "github.com/mehmetizmirlioglu/CovenantSQL/pow/cpuminer"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 var (

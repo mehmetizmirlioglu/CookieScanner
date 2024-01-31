@@ -22,10 +22,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 const name = "cql-mysql-adapter"

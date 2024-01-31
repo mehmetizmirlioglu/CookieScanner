@@ -24,11 +24,11 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/rpc"
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 const (

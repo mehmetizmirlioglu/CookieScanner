@@ -23,8 +23,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 func TestLevelDBWal_Write(t *testing.T) {

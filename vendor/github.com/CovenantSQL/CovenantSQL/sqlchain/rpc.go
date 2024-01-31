@@ -17,7 +17,7 @@
 package sqlchain
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 // ChainRPCService defines a sql-chain RPC server.

@@ -26,8 +26,8 @@ import (
 	"github.com/pkg/errors"
 	mw "github.com/zserge/metric"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/route"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/route"
 )
 
 var (

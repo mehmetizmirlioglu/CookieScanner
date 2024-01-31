@@ -3,8 +3,8 @@
         width="760">
 </p>
 <p align="center">
-    <a href="https://goreportcard.com/report/github.com/CovenantSQL/CovenantSQL">
-        <img src="https://goreportcard.com/badge/github.com/CovenantSQL/CovenantSQL?style=flat-square"
+    <a href="https://goreportcard.com/report/github.com/mehmetizmirlioglu/CovenantSQL">
+        <img src="https://goreportcard.com/badge/github.com/mehmetizmirlioglu/CovenantSQL?style=flat-square"
             alt="Go Report Card"></a>
     <a href="https://codecov.io/gh/CovenantSQL/CovenantSQL">
         <img src="https://codecov.io/gh/CovenantSQL/CovenantSQL/branch/develop/graph/badge.svg"
@@ -15,7 +15,7 @@
     <a href="https://opensource.org/licenses/Apache-2.0">
         <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"
             alt="License"></a>
-    <a href="https://godoc.org/github.com/CovenantSQL/CovenantSQL">
+    <a href="https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL">
         <img src="https://img.shields.io/badge/godoc-reference-blue.svg"
             alt="GoDoc"></a>
     <a href="https://formulae.brew.sh/formula/cql">
@@ -23,7 +23,7 @@
             alt="homebrew"></a>
 </p>
 
-[English Overview](https://github.com/CovenantSQL/CovenantSQL/blob/develop/README.md)
+[English Overview](https://github.com/mehmetizmirlioglu/CovenantSQL/blob/develop/README.md)
 
 CovenantSQL(CQL) 是一个运行在公网上的 SQL 数据库，并具有 GDPR 合规与去中心化等特点。
 
@@ -97,8 +97,8 @@ sql.Open("cql", dbURI)
 
 CQL 支持两种共识算法：
 
-1. DPoS (委任权益证明) 应用在数据库的 `最终一致性` 和 Block Producer 所在的 `第一层 (全局共识层)` ，CQL 的矿工在客户端将所有SQL查询及其签名打包成块，从而形成整个区块链，我们把这个算法命名为 [`Xenomint`](https://github.com/CovenantSQL/CovenantSQL/tree/develop/xenomint)
-2. BFT-Raft (拜占庭容错算法)<sup>[bft-raft](#bft-raft)</sup> 应用于数据库的 `强一致性`。我们把这个实现命名为 [`Kayak`](https://github.com/CovenantSQL/CovenantSQL/tree/develop/kayak).  矿工 leader 会基于 `Kayak` 做 `两阶段提交` 来支持 `Transaction`.<sup>[transaction](#transaction)</sup>
+1. DPoS (委任权益证明) 应用在数据库的 `最终一致性` 和 Block Producer 所在的 `第一层 (全局共识层)` ，CQL 的矿工在客户端将所有SQL查询及其签名打包成块，从而形成整个区块链，我们把这个算法命名为 [`Xenomint`](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/xenomint)
+2. BFT-Raft (拜占庭容错算法)<sup>[bft-raft](#bft-raft)</sup> 应用于数据库的 `强一致性`。我们把这个实现命名为 [`Kayak`](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/kayak).  矿工 leader 会基于 `Kayak` 做 `两阶段提交` 来支持 `Transaction`.<sup>[transaction](#transaction)</sup>
 
 可以用命令行  `cql create '{"UseEventualConsistency": true, "Node": 3}'` 来创建 `最终一致性` CQL 数据库
 
@@ -126,7 +126,7 @@ CQL 支持两种共识算法：
 
 - <a name="transaction">事务 (Transaction)</a>: 说到 `ACID`，CQL 具有完整的 "一致性，隔离性，持久化" 和特定的 `Atomicity` 支持。即使在强一致性的模式下，CQL 事务只支持在 leader 节点上执行。如果你想要并发执行事务："读取 `v`, `v++`, 写回 `v` ", 仅有的办法是："从 leader 读取 `v` , `v++`, 从 leader 写回 `v`"
 
-- <a name="fuse">FUSE</a>: CQL 有一个从 CockroachDB 移植过来的 [FUSE 客户端](https://github.com/CovenantSQL/CovenantSQL/tree/develop/cmd/cql-fuse)，目前性能不是很理想，仍然存在一些小问题。但它可以通过如下的 fio 测试：
+- <a name="fuse">FUSE</a>: CQL 有一个从 CockroachDB 移植过来的 [FUSE 客户端](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/cmd/cql-fuse)，目前性能不是很理想，仍然存在一些小问题。但它可以通过如下的 fio 测试：
 
   ```bash
   fio --debug=io --loops=1 --size=8m --filename=../mnt/fiotest.tmp --stonewall --direct=1 --name=Seqread --bs=128k --rw=read --name=Seqwrite --bs=128k --rw=write --name=4krandread --bs=4k --rw=randread --name=4krandwrite --bs=4k --rw=randwrite
@@ -138,8 +138,8 @@ CQL 支持两种共识算法：
 - 去中心化论坛：[CovenantForum](https://demo.covenantsql.io/forum/)
 - 推特上链：[Twitter Bot @iBlockPin](https://twitter.com/iblockpin)
 - 微博上链：[Weibo Bot @BlockPin](https://weibo.com/BlockPin)
-- Markdown 同步上链：[Markdown Editor with CovenantSQL sync](https://github.com/CovenantSQL/stackedit)
-- 网页端管理：[Web Admin for CovenantSQL](https://github.com/CovenantSQL/adminer)
+- Markdown 同步上链：[Markdown Editor with CovenantSQL sync](https://github.com/mehmetizmirlioglu/stackedit)
+- 网页端管理：[Web Admin for CovenantSQL](https://github.com/mehmetizmirlioglu/adminer)
 - CovenantSQL 介绍视频：[How CovenantSQL works(video)](https://youtu.be/2Mz5POxxaQM?t=106)
 
 ## 使用案例
@@ -205,15 +205,15 @@ CQL 矿工全球化部署，IoT 节点可以写入最近的矿工。
 | 层              | 应用 |
 |:-------------------|:--------------:|
 | 远程调用协议                |     `net/rpc`    |
-| 寻址             |      [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/CovenantSQL/CovenantSQL/consistent)     |
+| 寻址             |      [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL/consistent)     |
 | 会话池           |  Session Pool  |
 | 多路复用          |      [smux](https://github.com/xtaci/smux)     |
-| 传输安全 |      [**E**nhanced **TLS**](https://github.com/CovenantSQL/research/wiki/ETLS(Enhanced-Transport-Layer-Security))      |
+| 传输安全 |      [**E**nhanced **TLS**](https://github.com/mehmetizmirlioglu/research/wiki/ETLS(Enhanced-Transport-Layer-Security))      |
 | 网络            |       TCP or KCP for optional later      |
 
 
 #### 测试工具
-  - [全球网络拓扑模拟器(GNTE)](https://github.com/CovenantSQL/GNTE) 用于网络模拟
+  - [全球网络拓扑模拟器(GNTE)](https://github.com/mehmetizmirlioglu/GNTE) 用于网络模拟
   - [线性一致性测试](https://github.com/anishathalye/porcupine)
 
 
@@ -223,9 +223,9 @@ CovenantSQL仍在建设中，测试网已经发布，[尝试一下](https://deve
 
 
 - [Golang](client/)
-- [Java](https://github.com/CovenantSQL/covenant-connector)
-- [NodeJS](https://github.com/CovenantSQL/node-covenantsql)
-- [Python](https://github.com/CovenantSQL/python-driver)
+- [Java](https://github.com/mehmetizmirlioglu/covenant-connector)
+- [NodeJS](https://github.com/mehmetizmirlioglu/node-covenantsql)
+- [Python](https://github.com/mehmetizmirlioglu/python-driver)
 - [Microsoft Excel (来自社区)](https://github.com/melancholiaforever/CQL_Excel)
 - Coding for more……
 

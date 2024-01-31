@@ -7,7 +7,7 @@ main() {
     make -C "$wd" clean
     make -C "$wd" use_all_cores
 
-    local pkg="github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd"
+    local pkg="github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd"
     #go test -bench=^BenchmarkSQLite$ -benchtime=10s -run=^$ "$pkg"
 
     local flags=(

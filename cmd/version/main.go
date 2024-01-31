@@ -17,11 +17,11 @@
 package version
 
 import (
-	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/CookieScanner/parser"
-	"github.com/CovenantSQL/CookieScanner/utils"
 	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/gobs/pretty"
+	"github.com/mehmetizmirlioglu/CookieScanner/cmd"
+	"github.com/mehmetizmirlioglu/CookieScanner/parser"
+	"github.com/mehmetizmirlioglu/CookieScanner/utils"
 	"github.com/pkg/errors"
 )
 

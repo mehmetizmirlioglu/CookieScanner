@@ -16,7 +16,7 @@
 
 package kayak
 
-import "github.com/CovenantSQL/CovenantSQL/proto"
+import "github.com/mehmetizmirlioglu/CovenantSQL/proto"
 
 // SetCaller injects caller for test purpose.
 func (r *Runtime) SetCaller(id proto.NodeID, c Caller) {

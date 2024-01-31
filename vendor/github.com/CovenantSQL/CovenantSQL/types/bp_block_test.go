@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/verifier"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/verifier"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 func TestHeader_MarshalUnmarshalBinary(t *testing.T) {

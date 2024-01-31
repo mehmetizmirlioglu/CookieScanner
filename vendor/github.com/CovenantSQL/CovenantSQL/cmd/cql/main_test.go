@@ -21,7 +21,7 @@ package main
 import (
 	"testing"
 
-	"github.com/CovenantSQL/CovenantSQL/cmd/cql/internal"
+	"github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql/internal"
 )
 
 func TestMain(m *testing.M) {

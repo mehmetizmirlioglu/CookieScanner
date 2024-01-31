@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 set -euo pipefail
 
-declare pkg="github.com/CovenantSQL/CovenantSQL/cmd/cql-minerd"
+declare pkg="github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql-minerd"
 declare flags=(
     "-bench=^BenchmarkMinerGNTE$"
     "-benchtime=10s"

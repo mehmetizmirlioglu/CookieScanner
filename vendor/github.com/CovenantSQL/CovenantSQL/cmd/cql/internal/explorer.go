@@ -19,8 +19,8 @@ package internal
 import (
 	"net/http"
 
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/observer"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/observer"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 var (

@@ -19,9 +19,9 @@ package kayak
 import (
 	"encoding/binary"
 
-	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
+	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
 )
 
 func (r *Runtime) getCaller(id proto.NodeID) Caller {

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 var (

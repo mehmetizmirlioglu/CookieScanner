@@ -32,7 +32,7 @@ import (
 	"strings"
 	"time"
 
-	sqlite3 "github.com/CovenantSQL/go-sqlite3-encrypt"
+	sqlite3 "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
 	"github.com/xo/dburl"
 	"github.com/xo/usql/drivers"
 	"github.com/xo/usql/env"
@@ -40,8 +40,8 @@ import (
 	"github.com/xo/usql/rline"
 	"github.com/xo/usql/text"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 // CmdConsole is cql console command entity.

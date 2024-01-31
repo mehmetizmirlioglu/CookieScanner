@@ -16,7 +16,7 @@
 
 package main
 
-import "github.com/CovenantSQL/CovenantSQL/proto"
+import "github.com/mehmetizmirlioglu/CovenantSQL/proto"
 
 // GossipRequest defines the gossip request payload.
 type GossipRequest struct {

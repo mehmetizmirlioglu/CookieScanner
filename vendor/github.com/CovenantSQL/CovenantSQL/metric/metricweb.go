@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	mw "github.com/zserge/metric"
 
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 func collect(cc *CollectClient) (err error) {

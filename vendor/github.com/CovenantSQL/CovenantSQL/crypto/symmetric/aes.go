@@ -24,8 +24,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
 )
 
 var (

@@ -27,9 +27,9 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/ugorji/go/codec"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 func getCommKeys() (*asymmetric.PrivateKey, *asymmetric.PublicKey) {

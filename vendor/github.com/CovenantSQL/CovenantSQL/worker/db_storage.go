@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/types"
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	x "github.com/CovenantSQL/CovenantSQL/xenomint"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	x "github.com/mehmetizmirlioglu/CovenantSQL/xenomint"
 )
 
 // Following contains storage related logic extracted from main database instance definition.

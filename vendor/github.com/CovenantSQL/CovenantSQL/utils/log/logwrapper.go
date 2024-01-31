@@ -161,7 +161,7 @@ func (hook *CallerHook) caller(entry *logrus.Entry) (relFuncName, caller string)
 			//fmt.Printf("%s:%d %s\n", f.File, f.Line, f.Function)
 			if !foundCaller && strings.HasSuffix(f.File, "logwrapper.go") && more {
 				f, _ = _frames.Next()
-				relFuncName = strings.TrimPrefix(f.Function, "github.com/CovenantSQL/CovenantSQL/")
+				relFuncName = strings.TrimPrefix(f.Function, "github.com/mehmetizmirlioglu/CovenantSQL/")
 				caller = fmt.Sprintf("%s:%d %s", filepath.Base(f.File), f.Line, relFuncName)
 				foundCaller = true
 			}
@@ -180,7 +180,7 @@ func (hook *CallerHook) caller(entry *logrus.Entry) (relFuncName, caller string)
 				stacksStr := make([]string, 0, len(stacks))
 				for i, s := range stacks {
 					if s.Line > 0 {
-						fName := strings.TrimPrefix(s.Function, "github.com/CovenantSQL/CovenantSQL/")
+						fName := strings.TrimPrefix(s.Function, "github.com/mehmetizmirlioglu/CovenantSQL/")
 						stackStr := fmt.Sprintf("#%d %s@%s:%d     ", i, fName, filepath.Base(s.File), s.Line)
 						stacksStr = append(stacksStr, stackStr)
 					}

@@ -16,7 +16,7 @@
 
 package naconn
 
-import "github.com/CovenantSQL/CovenantSQL/proto"
+import "github.com/mehmetizmirlioglu/CovenantSQL/proto"
 
 // Resolver defines the node ID resolver interface for node-oriented connection.
 type Resolver interface {

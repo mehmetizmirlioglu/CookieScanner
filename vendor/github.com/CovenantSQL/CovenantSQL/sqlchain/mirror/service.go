@@ -28,15 +28,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/route"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/types"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
-	"github.com/CovenantSQL/CovenantSQL/worker"
-	x "github.com/CovenantSQL/CovenantSQL/xenomint"
-	xs "github.com/CovenantSQL/CovenantSQL/xenomint/sqlite"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/route"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/worker"
+	x "github.com/mehmetizmirlioglu/CovenantSQL/xenomint"
+	xs "github.com/mehmetizmirlioglu/CovenantSQL/xenomint/sqlite"
 )
 
 const (

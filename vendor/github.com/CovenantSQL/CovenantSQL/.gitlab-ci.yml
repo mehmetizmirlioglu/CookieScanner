@@ -25,9 +25,9 @@ before_script:
   #  - go get github.com/golang/lint/golint
   #  - go get github.com/haya14busa/reviewdog/cmd/reviewdog
   #  - go get github.com/wadey/gocovmerge
-  - mkdir -p $GOPATH/src/github.com/CovenantSQL
-  - cp -r /builds/thunderdb/CovenantSQL $GOPATH/src/github.com/CovenantSQL/
-  - cd $GOPATH/src/github.com/CovenantSQL/CovenantSQL
+  - mkdir -p $GOPATH/src/github.com/mehmetizmirlioglu
+  - cp -r /builds/thunderdb/CovenantSQL $GOPATH/src/github.com/mehmetizmirlioglu/
+  - cd $GOPATH/src/github.com/mehmetizmirlioglu/CovenantSQL
   #  - dep ensure
   - mkdir -p ~/bin/ && export PATH="~/bin/:$PATH"
   - ulimit -n 8192

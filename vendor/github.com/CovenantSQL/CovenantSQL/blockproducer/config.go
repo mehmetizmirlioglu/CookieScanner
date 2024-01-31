@@ -19,9 +19,9 @@ package blockproducer
 import (
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	rpc "github.com/CovenantSQL/CovenantSQL/rpc/mux"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	rpc "github.com/mehmetizmirlioglu/CovenantSQL/rpc/mux"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 // RunMode defines modes that a bp can run as.

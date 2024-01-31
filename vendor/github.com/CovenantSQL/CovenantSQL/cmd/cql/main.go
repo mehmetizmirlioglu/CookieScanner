@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/cmd/cql/internal"
+	"github.com/mehmetizmirlioglu/CovenantSQL/cmd/cql/internal"
 )
 
 var (

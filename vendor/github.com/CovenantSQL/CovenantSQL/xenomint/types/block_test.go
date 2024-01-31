@@ -21,10 +21,10 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/crypto/verifier"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/verifier"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 func TestBlock(t *testing.T) {

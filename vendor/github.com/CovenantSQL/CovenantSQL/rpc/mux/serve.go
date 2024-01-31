@@ -24,10 +24,10 @@ import (
 	"github.com/pkg/errors"
 	mux "github.com/xtaci/smux"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/rpc"
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/rpc"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // ServeMux takes conn and serves as a multiplexing server.

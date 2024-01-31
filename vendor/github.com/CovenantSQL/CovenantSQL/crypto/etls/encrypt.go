@@ -22,7 +22,7 @@ import (
 	"crypto/rand"
 	"io"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
 )
 
 // KeyDerivation .according to ANSI X9.63 we should do a key derivation before using

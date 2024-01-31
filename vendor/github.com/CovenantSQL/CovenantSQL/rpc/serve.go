@@ -21,8 +21,8 @@ import (
 	"io"
 	"net/rpc"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 // ServeDirect serves data stream directly.

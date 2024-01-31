@@ -23,7 +23,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/etls"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/etls"
 )
 
 func TestAcceptFunc(t *testing.T) {

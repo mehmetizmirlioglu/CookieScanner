@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	_ "github.com/CovenantSQL/go-sqlite3-encrypt" // sqlite3 driver
+	_ "github.com/mehmetizmirlioglu/go-sqlite3-encrypt" // sqlite3 driver
 	"github.com/go-gorp/gorp"
 	"github.com/pkg/errors"
 )

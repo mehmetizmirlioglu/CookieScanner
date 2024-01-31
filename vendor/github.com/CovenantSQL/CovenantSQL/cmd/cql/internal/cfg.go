@@ -27,14 +27,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ssh/terminal"
 
-	pi "github.com/CovenantSQL/CovenantSQL/blockproducer/interfaces"
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/crypto/kms"
-	"github.com/CovenantSQL/CovenantSQL/utils"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	pi "github.com/mehmetizmirlioglu/CovenantSQL/blockproducer/interfaces"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/kms"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // These are general flags used by console and other commands.

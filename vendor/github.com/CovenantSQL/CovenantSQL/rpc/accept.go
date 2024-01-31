@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/etls"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/etls"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // AcceptRawConn accepts raw connection without encryption or node-oriented mechanism.

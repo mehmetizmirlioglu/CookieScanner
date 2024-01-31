@@ -3,8 +3,8 @@
         width="760">
 </p>
 <p align="center">
-    <a href="https://goreportcard.com/report/github.com/CovenantSQL/CovenantSQL">
-        <img src="https://goreportcard.com/badge/github.com/CovenantSQL/CovenantSQL?style=flat-square"
+    <a href="https://goreportcard.com/report/github.com/mehmetizmirlioglu/CovenantSQL">
+        <img src="https://goreportcard.com/badge/github.com/mehmetizmirlioglu/CovenantSQL?style=flat-square"
             alt="Go Report Card"></a>
     <a href="https://codecov.io/gh/CovenantSQL/CovenantSQL">
         <img src="https://codecov.io/gh/CovenantSQL/CovenantSQL/branch/develop/graph/badge.svg"
@@ -15,7 +15,7 @@
     <a href="https://opensource.org/licenses/Apache-2.0">
         <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"
             alt="License"></a>
-    <a href="https://godoc.org/github.com/CovenantSQL/CovenantSQL">
+    <a href="https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL">
         <img src="https://img.shields.io/badge/godoc-reference-blue.svg"
             alt="GoDoc"></a>
     <a href="https://formulae.brew.sh/formula/cql">
@@ -23,7 +23,7 @@
             alt="homebrew"></a>
 </p>
 
-[中文简介](https://github.com/CovenantSQL/CovenantSQL/blob/develop/README-zh.md)
+[中文简介](https://github.com/mehmetizmirlioglu/CovenantSQL/blob/develop/README-zh.md)
 
 CovenantSQL(CQL) is a Decentralized, GDPR-compliant, Trusted, SQL database with Blockchain features:
 
@@ -98,8 +98,8 @@ sql.Open("cql", dbURI)
 
 CQL supports 2 kinds of consensus algorithm:
 
-1. DPoS (Delegated Proof-of-Stake) is applied in `Eventually consistency mode` database and also `Layer 1 (Global Consensus Layer)` in BlockProducer. CQL miners pack all SQL queries and its signatures by the client into blocks thus form a blockchain. We named the algorithm [`Xenomint`](https://github.com/CovenantSQL/CovenantSQL/tree/develop/xenomint). 
-2. BFT-Raft (Byzantine Fault-Toleranted Raft)<sup>[bft-raft](#bft-raft)</sup> is applied in `Strong consistency mode` database. We named our implementation [`Kayak`](https://github.com/CovenantSQL/CovenantSQL/tree/develop/kayak).  The CQL miner leader does a `Two-Phase Commit` with `Kayak` to support `Transaction`.<sup>[transaction](#transaction)</sup>
+1. DPoS (Delegated Proof-of-Stake) is applied in `Eventually consistency mode` database and also `Layer 1 (Global Consensus Layer)` in BlockProducer. CQL miners pack all SQL queries and its signatures by the client into blocks thus form a blockchain. We named the algorithm [`Xenomint`](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/xenomint). 
+2. BFT-Raft (Byzantine Fault-Toleranted Raft)<sup>[bft-raft](#bft-raft)</sup> is applied in `Strong consistency mode` database. We named our implementation [`Kayak`](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/kayak).  The CQL miner leader does a `Two-Phase Commit` with `Kayak` to support `Transaction`.<sup>[transaction](#transaction)</sup>
 
 CQL database consistency mode and node count can be selected in database creation with command  `cql create '{"UseEventualConsistency": true, "Node": 3}'`
 
@@ -127,7 +127,7 @@ CQL database consistency mode and node count can be selected in database creatio
 
 - <a name="transaction">Transaction</a>: Talking about `ACID`, CQL has full "Consistency, Isolation, Durability" and a limited `Atomicity` support. That is even under strong consistency mode, CQL transaction is only supported on the leader node. If you want to do "read `v`, `v++`, write `v` back" parallelly and atomically, then the only way is "read `v` from the leader, `v++`, write `v` back to leader"
 
-- <a name="fuse">FUSE</a>: CQL has a [simple FUSE](https://github.com/CovenantSQL/CovenantSQL/tree/develop/cmd/cql-fuse) support adopted from CockroachDB. The performance is not very ideal and still has some issues. But it can pass fio test like:
+- <a name="fuse">FUSE</a>: CQL has a [simple FUSE](https://github.com/mehmetizmirlioglu/CovenantSQL/tree/develop/cmd/cql-fuse) support adopted from CockroachDB. The performance is not very ideal and still has some issues. But it can pass fio test like:
 
   ```bash
   fio --debug=io --loops=1 --size=8m --filename=../mnt/fiotest.tmp --stonewall --direct=1 --name=Seqread --bs=128k --rw=read --name=Seqwrite --bs=128k --rw=write --name=4krandread --bs=4k --rw=randread --name=4krandwrite --bs=4k --rw=randwrite
@@ -140,8 +140,8 @@ CQL database consistency mode and node count can be selected in database creatio
 - [CovenantForum](https://demo.covenantsql.io/forum/)
 - [Twitter Bot @iBlockPin](https://twitter.com/iblockpin)
 - [Weibo Bot @BlockPin](https://weibo.com/BlockPin)
-- [Markdown Editor with CovenantSQL sync](https://github.com/CovenantSQL/stackedit)
-- [Web Admin for CovenantSQL](https://github.com/CovenantSQL/adminer)
+- [Markdown Editor with CovenantSQL sync](https://github.com/mehmetizmirlioglu/stackedit)
+- [Web Admin for CovenantSQL](https://github.com/mehmetizmirlioglu/adminer)
 - [How CovenantSQL works(video)](https://youtu.be/2Mz5POxxaQM?t=106)
 
 ## Use cases
@@ -204,15 +204,15 @@ that inspired us:
 | Layer              | Implementation |
 |:-------------------|:--------------:|
 | RPC                |     `net/rpc`    |
-| Naming             |      [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/CovenantSQL/CovenantSQL/consistent)     |
+| Naming             |      [**C**onsistent **S**ecure **DHT**](https://godoc.org/github.com/mehmetizmirlioglu/CovenantSQL/consistent)     |
 | Pooling            |  Session Pool  |
 | Multiplex          |      [smux](https://github.com/xtaci/smux)     |
-| Transport Security |      [**E**nhanced **TLS**](https://github.com/CovenantSQL/research/wiki/ETLS(Enhanced-Transport-Layer-Security))      |
+| Transport Security |      [**E**nhanced **TLS**](https://github.com/mehmetizmirlioglu/research/wiki/ETLS(Enhanced-Transport-Layer-Security))      |
 | Network            |       TCP or KCP for optional later      |
 
 
 #### Test Tools
-  - [**G**lobal **N**etwork **T**opology **E**mulator](https://github.com/CovenantSQL/GNTE) is used for network emulating.
+  - [**G**lobal **N**etwork **T**opology **E**mulator](https://github.com/mehmetizmirlioglu/GNTE) is used for network emulating.
   - [Liner Consistency Test](https://github.com/anishathalye/porcupine)
 
 
@@ -222,9 +222,9 @@ CovenantSQL is still under construction and Testnet is already released, [have a
 
 
 - [Golang](client/)
-- [Java](https://github.com/CovenantSQL/covenant-connector)
-- [NodeJS](https://github.com/CovenantSQL/covenantsql-proxy-js)
-- [Python](https://github.com/CovenantSQL/python-driver)
+- [Java](https://github.com/mehmetizmirlioglu/covenant-connector)
+- [NodeJS](https://github.com/mehmetizmirlioglu/covenantsql-proxy-js)
+- [Python](https://github.com/mehmetizmirlioglu/python-driver)
 - [Microsoft Excel (by community)](https://github.com/melancholiaforever/CQL_Excel)
 - Coding for more……
 

@@ -24,8 +24,8 @@ import (
 
 	"github.com/gorilla/handlers"
 
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter/api"
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/adapter/config"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter/api"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/adapter/config"
 )
 
 // HTTPAdapter is a adapter for covenantsql/alternative sqlite3 service.

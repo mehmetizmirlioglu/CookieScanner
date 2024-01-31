@@ -22,7 +22,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/asymmetric"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/asymmetric"
 )
 
 func TestPubKeyHashAndAddressing(t *testing.T) {

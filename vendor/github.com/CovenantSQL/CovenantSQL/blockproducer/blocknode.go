@@ -19,8 +19,8 @@ package blockproducer
 import (
 	"sync/atomic"
 
-	"github.com/CovenantSQL/CovenantSQL/crypto/hash"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto/hash"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 type blockNode struct {

@@ -24,12 +24,12 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/conf"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/conf"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 
 	// Load sqlite3 database driver.
-	_ "github.com/CovenantSQL/go-sqlite3-encrypt"
+	_ "github.com/mehmetizmirlioglu/go-sqlite3-encrypt"
 )
 
 // Persistence defines the persistence api for faucet service.

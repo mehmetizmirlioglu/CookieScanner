@@ -28,8 +28,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 var (

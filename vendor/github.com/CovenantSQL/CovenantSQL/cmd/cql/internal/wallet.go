@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/crypto"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/crypto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 var (

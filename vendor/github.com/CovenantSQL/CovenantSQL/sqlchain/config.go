@@ -19,8 +19,8 @@ package sqlchain
 import (
 	"time"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 // Config represents a sql-chain config.

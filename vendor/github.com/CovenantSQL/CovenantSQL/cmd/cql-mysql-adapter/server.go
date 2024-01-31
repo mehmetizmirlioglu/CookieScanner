@@ -21,7 +21,7 @@ import (
 
 	mys "github.com/siddontang/go-mysql/server"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // Server defines the main logic of mysql protocol adapter.

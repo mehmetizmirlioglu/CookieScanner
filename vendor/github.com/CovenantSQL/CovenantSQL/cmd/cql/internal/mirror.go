@@ -17,9 +17,9 @@
 package internal
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/client"
-	"github.com/CovenantSQL/CovenantSQL/sqlchain/mirror"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/client"
+	"github.com/mehmetizmirlioglu/CovenantSQL/sqlchain/mirror"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 var (

@@ -19,8 +19,8 @@ package blockproducer
 import (
 	"github.com/mohae/deepcopy"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 // safeAdd provides a safe add method with upper overflow check for uint64.

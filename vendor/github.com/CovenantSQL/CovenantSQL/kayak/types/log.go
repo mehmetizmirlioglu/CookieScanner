@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/CovenantSQL/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
 )
 
 // LogType defines the log type.

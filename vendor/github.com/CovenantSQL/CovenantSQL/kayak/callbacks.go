@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/trace"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/trace"
 )
 
 func (r *Runtime) doCheck(ctx context.Context, req interface{}) (err error) {

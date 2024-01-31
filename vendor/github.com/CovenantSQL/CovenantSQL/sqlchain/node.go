@@ -16,7 +16,7 @@
 
 package sqlchain
 
-import "github.com/CovenantSQL/CovenantSQL/proto"
+import "github.com/mehmetizmirlioglu/CovenantSQL/proto"
 
 // BlockID is the hash of block content.
 type BlockID string

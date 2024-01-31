@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
 )
 
 // FJ is short for filepath.Join.

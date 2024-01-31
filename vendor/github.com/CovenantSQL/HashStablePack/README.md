@@ -13,7 +13,7 @@ This is a code generation tool for **QUICK** struct content compare or hash comp
     ```
     bench cases see [here](test/hashstable_test.go)
     
-- Quick calculation of struct hash or signature without reflection. used in [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) for block hash.
+- Quick calculation of struct hash or signature without reflection. used in [CovenantSQL](https://github.com/mehmetizmirlioglu/CovenantSQL) for block hash.
 
 ### How
 
@@ -105,7 +105,7 @@ You can read more about MessagePack [in the wiki](http://github.com/tinylib/msgp
 
 1. Quick Install
 ```bash
-go get -u github.com/CovenantSQL/HashStablePack/hsp
+go get -u github.com/mehmetizmirlioglu/HashStablePack/hsp
 ```
 
 2. Add tag for source

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/CovenantSQL/CovenantSQL/proto"
-	"github.com/CovenantSQL/CovenantSQL/utils"
+	"github.com/mehmetizmirlioglu/CovenantSQL/proto"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils"
 )
 
 func TestMarshalHashAccountStable(t *testing.T) {

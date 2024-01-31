@@ -21,10 +21,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	kt "github.com/CovenantSQL/CovenantSQL/kayak/types"
-	"github.com/CovenantSQL/CovenantSQL/utils/log"
-	"github.com/CovenantSQL/CovenantSQL/utils/timer"
-	"github.com/CovenantSQL/CovenantSQL/utils/trace"
+	kt "github.com/mehmetizmirlioglu/CovenantSQL/kayak/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/log"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/timer"
+	"github.com/mehmetizmirlioglu/CovenantSQL/utils/trace"
 )
 
 func (r *Runtime) doLeaderPrepare(ctx context.Context, tm *timer.Timer, req interface{}) (prepareLog *kt.Log, err error) {

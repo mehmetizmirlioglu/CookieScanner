@@ -19,7 +19,7 @@ package sqlchain
 import (
 	"testing"
 
-	"github.com/CovenantSQL/CovenantSQL/types"
+	"github.com/mehmetizmirlioglu/CovenantSQL/types"
 )
 
 var (
